@@ -1,6 +1,6 @@
 {
-  "name": "@caijs/bench",
-  "description": "Benchmar util for Node.js",
+  "name": "@caijs/leven",
+  "description": "Levenshtein distance",
   "scripts": {
     "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
     "lint": "eslint .",
