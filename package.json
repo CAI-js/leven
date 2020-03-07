@@ -1,0 +1,59 @@
+{
+  "name": "@caijs/bench",
+  "description": "Benchmar util for Node.js",
+  "scripts": {
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
+    "lint": "eslint .",
+    "lintfix": "eslint --fix .",
+    "test": "eslint --fix . && jest --silent --coverage --maxWorkers=4 .",
+    "bench": "node ./bench"
+  },
+  "author": {
+    "email": "jseijas@gmail.com",
+    "name": "Jesus Seijas"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAI-js/bench.git"
+  },
+  "bugs": {
+    "url": "git+https://github.com/CAI-js/bench/issues"
+  },
+  "maintainers": [
+    {
+      "email": "jseijas@gmail.com",
+      "name": "Jesus Seijas"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "fast-levenshtein": "^2.0.6",
+    "jest": "^25.1.0",
+    "ld": "^0.1.0",
+    "lerna": "^3.20.2",
+    "levdist": "^2.2.9",
+    "leven": "^3.1.0",
+    "levenshtein": "^1.0.5",
+    "levenshtein-component": "0.0.1",
+    "levenshtein-edit-distance": "^2.0.5",
+    "natural": "^0.6.3",
+    "prettier": "^1.19.1",
+    "talisman": "^0.21.0"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/",
+    "collectCoverage": false,
+    "collectCoverageFrom": [],
+    "coverageDirectory": "coverage",
+    "testEnvironment": "node"
+  }
+}
