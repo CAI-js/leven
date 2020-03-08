@@ -1,13 +1,25 @@
 const array = [];
 const charCodeCache = [];
 
+function normalizeString(s, lower, normalize) {
+  if (normalize) {
+    s = s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  }
+  if (lower) {
+    s = s.toLowerCase();
+  }
+  return s;
+}
+
 /**
  * Calculates levenshtein distance
  * @param {string} left Left string
  * @param {string} right Right string
  * @returns {number} levenshtein distance of the two strings
  */
-function leven(left, right) {
+function leven(left, right, lower, normalize) {
+  left = normalizeString(left, lower, normalize);
+  right = normalizeString(right, lower, normalize);
   if (left.length > right.length) {
     // eslint-disable-next-line no-param-reassign
     [left, right] = [right, left];
