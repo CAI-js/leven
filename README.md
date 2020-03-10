@@ -1,5 +1,9 @@
 # @caijs/leven
 
+[![Build Status](https://travis-ci.com/CAI-js/leven.svg?branch=master)](https://travis-ci.com/CAI-js/leven)
+[![NPM version](https://img.shields.io/npm/v/@caijs/leven.svg?style=flat)](https://www.npmjs.com/package/@caijs/leven)
+[![NPM downloads](https://img.shields.io/npm/dm/@caijs/leven.svg?style=flat)](https://www.npmjs.com/package/@caijs/leven)
+
 Measure the difference between two strings
 
 Is a javascript implementation of the [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) algorithm
