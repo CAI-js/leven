@@ -1,6 +1,7 @@
 # @caijs/leven
 
 [![Build Status](https://travis-ci.com/CAI-js/leven.svg?branch=master)](https://travis-ci.com/CAI-js/leven)
+[![Coverage Status](https://coveralls.io/repos/github/CAI-js/leven/badge.svg?branch=master)](https://coveralls.io/github/CAI-js/leven?branch=master)
 [![NPM version](https://img.shields.io/npm/v/@caijs/leven.svg?style=flat)](https://www.npmjs.com/package/@caijs/leven)
 [![NPM downloads](https://img.shields.io/npm/dm/@caijs/leven.svg?style=flat)](https://www.npmjs.com/package/@caijs/leven)
 
